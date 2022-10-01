@@ -5,7 +5,7 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 
 const Product = ({item}) => {
   return (
-    <div className="styled-container flex-[1] m-[5px] min-w-[280px] h-[350px] p-5  flex items-center justify-center bg-emerald-50 relative">
+    <div className="styled-container flex-[1] m-[5px] min-w-[280px] h-[350px] p-5  flex items-center justify-center bg-emerald-50 relative ">
       <div className="circle w-[250px] h-[250px] rounded-full bg-white absolute">
 
       </div>

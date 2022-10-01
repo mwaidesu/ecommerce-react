@@ -6,7 +6,7 @@ function Slider() {
 
   return (
     <div className="styled-container w-screen h-screen flex relative ">
-      <div className="styled-arrow w-[50px] h-[50px] bg-gray-500 rounded-full flex items-center justify-center absolute top-0 bottom-0 m-auto left-[10px] cursor-pointer opacity-50">
+      <div className="styled-arrow w-[50px] h-[50px] bg-gray-500 rounded-full flex items-center justify-center absolute top-0 bottom-0 m-auto left-[10px] cursor-pointer opacity-50 ml-4">
         <ArrowLeftIcon />
       </div>
 
@@ -38,7 +38,7 @@ function Slider() {
         </div> */}
       </div>
 
-      <div className="styled-arrow w-[50px] h-[50px] bg-gray-500 rounded-full flex items-center justify-center absolute top-0 bottom-0 m-auto right-[10px] cursor-pointer opacity-50">
+      <div className="styled-arrow w-[50px] h-[50px] bg-gray-500 rounded-full flex items-center justify-center absolute top-0 bottom-0 m-auto right-[10px] cursor-pointer opacity-50 mr-4">
         <ArrowRightOutlinedIcon />
       </div>
     </div>
